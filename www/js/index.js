@@ -10,7 +10,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 //
     function onDeviceReady() { 
 	   console.log("device ready");
-       $('#mypanel').enhanceWithin().panel();
+       $('#myPanel').enhanceWithin().panel({display: "push"});
     }
 
 
